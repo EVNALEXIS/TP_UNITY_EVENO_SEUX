@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "My project.sln"
+    "dotnet.defaultSolution": "TP_UNITY_EVENO_SEUX.sln"
 }
