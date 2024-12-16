@@ -65,10 +65,14 @@
     <Analyzer Include="C:\Program Files\Unity 6000.0.27f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\CameraFollowed.cs" />
-    <Compile Include="Assets\Scripts\CharacterHitbox.cs" />
-    <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Platformer\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Platformer\Scripts\CharacterHitbox.cs" />
+    <Compile Include="Assets\Platformer\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Platformer\Scripts\CameraFollowed.cs" />
+    <Compile Include="Assets\Platformer\Scripts\EnnemyMovement.cs" />
+    <Compile Include="Assets\Platformer\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Platformer\Scripts\Chest.cs" />
+    <Compile Include="Assets\Platformer\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
