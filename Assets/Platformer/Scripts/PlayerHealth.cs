@@ -11,6 +11,8 @@ public class PlayerHealth : MonoBehaviour
     public float invincibilityFlashDelay = 0.2f;
     public float invincibilityTimeAfterHit = 3f;
 
+    public static PlayerHealth instance;
+
 
     public HealthBar healthBar;
 
@@ -41,6 +43,7 @@ public class PlayerHealth : MonoBehaviour
         }
         
     }
+    
 
     public IEnumerator InvincibilityFlash()
     {

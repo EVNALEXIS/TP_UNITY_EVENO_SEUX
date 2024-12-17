@@ -12,7 +12,7 @@ public class Chest : MonoBehaviour
 
     void Awake()
     {
-        interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<Text>();
+        //interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<Text>();
     }
 
     void Update()
